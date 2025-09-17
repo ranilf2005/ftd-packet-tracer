@@ -33,3 +33,21 @@ Sample Directory Structure
 <img width="461" height="199" alt="image" src="https://github.com/user-attachments/assets/d113eaef-17c6-462a-8b85-52d5f81345f8" />
 
 
+Parameters to Collect from User
+
+Input Interface (e.g., GigabitEthernet0/1)
+Output Interface (e.g., GigabitEthernet0/2)
+Source IP Address (e.g., 192.168.1.10)
+Source Port (e.g., 12345)
+Destination IP Address (e.g., 8.8.8.8)
+Destination Port (e.g., 80)
+Protocol (e.g., tcp, udp)
+
+Updated User Flow
+
+User opens web GUI.
+Page loads and fetches available input/output interfaces from FTD.
+User selects input interface, output interface, protocol, and fills in source/destination IP and port.
+User clicks "Run Packet Tracer."
+Backend SSHes to FTD, runs the packet-tracer command with parameters, returns pass/fail and details.
+Result is displayed on the GUI.
