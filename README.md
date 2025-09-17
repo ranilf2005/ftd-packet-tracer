@@ -83,3 +83,11 @@ The server will start on http://127.0.0.1:5000.
 Step 5: Access the Web GUI
 
 Open your browser and visit http://127.0.0.1:5000.
+
+
+<img width="892" height="199" alt="image" src="https://github.com/user-attachments/assets/2efc0976-ddb9-47f2-995b-d03514b01d6e" />
+
+
+<img width="408" height="291" alt="image" src="https://github.com/user-attachments/assets/5a8594ad-0865-45b2-8d8f-25cfd9c3da5d" />
+
+
