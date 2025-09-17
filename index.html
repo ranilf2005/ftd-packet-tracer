@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FTD Packet Tracer Web GUI</title>
+    <script src="/static/main.js"></script>
+</head>
+<body>
+    <h1>FTD Packet Tracer Web GUI</h1>
+    <form id="packetTracerForm">
+        <label for="input_ifc">Input Interface:</label>
+        <select name="input_ifc" id="input_ifc"></select><br>
+        <label for="output_ifc">Output Interface:</label>
+        <select name="output_ifc" id="output_ifc"></select><br>
+        <label for="protocol">Protocol:</label>
+        <select name="protocol" id="protocol">
+            <option value="tcp">TCP</option>
+            <option value="udp">UDP</option>
+            <option value="icmp">ICMP</option>
+        </select><br>
+        <label for="src_ip">Source IP:</label>
+        <input type="text" name="src_ip" id="src_ip" required><br>
+        <label for="src_port">Source Port:</label>
+        <input type="text" name="src_port" id="src_port" required><br>
+        <label for="dst_ip">Destination IP:</label>
+        <input type="text" name="dst_ip" id="dst_ip" required><br>
+        <label for="dst_port">Destination Port:</label>
+        <input type="text" name="dst_port" id="dst_port" required><br>
+        <button type="submit">Run Packet Tracer</button>
+    </form>
+    <pre id="result"></pre>
+</body>
+</html>
