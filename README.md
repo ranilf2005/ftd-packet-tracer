@@ -51,3 +51,35 @@ User selects input interface, output interface, protocol, and fills in source/de
 User clicks "Run Packet Tracer."
 Backend SSHes to FTD, runs the packet-tracer command with parameters, returns pass/fail and details.
 Result is displayed on the GUI.
+
+
+How to Deploy and Run
+
+Step 1: Clone/Create the project structure
+
+Copy the above files and folders as shown.
+
+
+Step 2: Install dependencies
+
+<img width="262" height="86" alt="image" src="https://github.com/user-attachments/assets/7f98fad9-dd5a-470b-b58c-6ca5a3c4a003" />
+
+
+Step 3: Edit credentials
+
+Edit app.py and set FTD_HOST, FTD_USER, FTD_PASS at the top with your device info.
+
+
+TIP: For security, consider using environment variables for these values in production.
+
+
+Step 4: Run the Flask server
+
+<img width="149" height="57" alt="image" src="https://github.com/user-attachments/assets/e56c596d-1552-40be-ac47-8331f985e3b2" />
+
+The server will start on http://127.0.0.1:5000.
+
+
+Step 5: Access the Web GUI
+
+Open your browser and visit http://127.0.0.1:5000.
